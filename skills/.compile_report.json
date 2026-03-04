@@ -1,0 +1,306 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "dd4hep",
+  "evidence": {
+    "core_skills": [
+      "dd4hep-examples-and-tutorials",
+      "dd4hep-build-and-install",
+      "dd4hep-simulation-workflows",
+      "dd4hep-releasenotes",
+      "dd4hep-reference",
+      "dd4hep-inputs-and-modeling"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/dd4hep-examples-and-tutorials.md",
+      "skills/.evidence/dd4hep-build-and-install.md",
+      "skills/.evidence/dd4hep-simulation-workflows.md",
+      "skills/.evidence/dd4hep-releasenotes.md",
+      "skills/.evidence/dd4hep-reference.md",
+      "skills/.evidence/dd4hep-inputs-and-modeling.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [],
+      "changed": [
+        "skills/dd4hep-build-and-install/SKILL.md",
+        "skills/dd4hep-examples-and-tutorials/SKILL.md",
+        "skills/dd4hep-index/SKILL.md",
+        "skills/dd4hep-inputs-and-modeling/SKILL.md",
+        "skills/dd4hep-inputs-and-modeling/references/doc_map.md",
+        "skills/dd4hep-reference/SKILL.md",
+        "skills/dd4hep-reference/references/doc_map.md",
+        "skills/dd4hep-releasenotes/SKILL.md",
+        "skills/dd4hep-releasenotes/references/doc_map.md",
+        "skills/dd4hep-simulation-workflows/SKILL.md",
+        "skills/dd4hep-simulation-workflows/references/doc_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/dd4hep-build-and-install/SKILL.md",
+        "skills/dd4hep-examples-and-tutorials/SKILL.md",
+        "skills/dd4hep-index/SKILL.md",
+        "skills/dd4hep-inputs-and-modeling/SKILL.md",
+        "skills/dd4hep-inputs-and-modeling/references/doc_map.md",
+        "skills/dd4hep-reference/SKILL.md",
+        "skills/dd4hep-reference/references/doc_map.md",
+        "skills/dd4hep-releasenotes/SKILL.md",
+        "skills/dd4hep-releasenotes/references/doc_map.md",
+        "skills/dd4hep-simulation-workflows/SKILL.md",
+        "skills/dd4hep-simulation-workflows/references/doc_map.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/dd4hep-api-and-scripting/SKILL.md",
+        "skills/dd4hep-api-and-scripting/references/doc_map.md",
+        "skills/dd4hep-api-and-scripting/references/source_map.md",
+        "skills/dd4hep-build-and-install/references/doc_map.md",
+        "skills/dd4hep-build-and-install/references/source_map.md",
+        "skills/dd4hep-examples-and-tutorials/SKILL.md",
+        "skills/dd4hep-examples-and-tutorials/references/doc_map.md",
+        "skills/dd4hep-examples-and-tutorials/references/source_map.md",
+        "skills/dd4hep-getting-started/SKILL.md",
+        "skills/dd4hep-getting-started/references/doc_map.md",
+        "skills/dd4hep-getting-started/references/source_map.md",
+        "skills/dd4hep-index/SKILL.md",
+        "skills/dd4hep-inputs-and-modeling/references/doc_map.md",
+        "skills/dd4hep-inputs-and-modeling/references/source_map.md",
+        "skills/dd4hep-reference/SKILL.md",
+        "skills/dd4hep-reference/references/doc_map.md",
+        "skills/dd4hep-reference/references/source_map.md",
+        "skills/dd4hep-releasenotes/SKILL.md",
+        "skills/dd4hep-releasenotes/references/doc_map.md",
+        "skills/dd4hep-releasenotes/references/source_map.md",
+        "skills/dd4hep-simulation-workflows/SKILL.md",
+        "skills/dd4hep-simulation-workflows/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/dd4hep-api-and-scripting/SKILL.md",
+        "skills/dd4hep-api-and-scripting/references/doc_map.md",
+        "skills/dd4hep-api-and-scripting/references/source_map.md",
+        "skills/dd4hep-build-and-install/references/doc_map.md",
+        "skills/dd4hep-build-and-install/references/source_map.md",
+        "skills/dd4hep-examples-and-tutorials/SKILL.md",
+        "skills/dd4hep-examples-and-tutorials/references/doc_map.md",
+        "skills/dd4hep-examples-and-tutorials/references/source_map.md",
+        "skills/dd4hep-getting-started/SKILL.md",
+        "skills/dd4hep-getting-started/references/doc_map.md",
+        "skills/dd4hep-getting-started/references/source_map.md",
+        "skills/dd4hep-index/SKILL.md",
+        "skills/dd4hep-inputs-and-modeling/references/doc_map.md",
+        "skills/dd4hep-inputs-and-modeling/references/source_map.md",
+        "skills/dd4hep-reference/SKILL.md",
+        "skills/dd4hep-reference/references/doc_map.md",
+        "skills/dd4hep-reference/references/source_map.md",
+        "skills/dd4hep-releasenotes/SKILL.md",
+        "skills/dd4hep-releasenotes/references/doc_map.md",
+        "skills/dd4hep-releasenotes/references/source_map.md",
+        "skills/dd4hep-simulation-workflows/SKILL.md",
+        "skills/dd4hep-simulation-workflows/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc",
+      "DDDetectors/doc",
+      "GaudiPluginService/doc",
+      "examples/RICH/doc"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Source code is split across top-level DD* modules instead of a single src/ root.",
+      "Primary automated tests are in DDTest, with additional regression-style checks in examples/ClientTests.",
+      "DDParsersStandAlone only wraps DDParsers via symlink and is intentionally excluded from source_dirs.",
+      "Applied a minimal syntax fix in sci-skills-generator/scripts/generate_skills_folder.py so dry-run generation is deterministic on this repo."
+    ],
+    "package_name": "dd4hep",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "DDAlign",
+      "DDCAD",
+      "DDCond",
+      "DDCore",
+      "DDDetectors",
+      "DDDigi",
+      "DDEve",
+      "DDG4",
+      "DDParsers",
+      "DDRec",
+      "GaudiPluginService",
+      "UtilityApps"
+    ],
+    "test_dirs": [
+      "DDTest",
+      "examples/ClientTests"
+    ],
+    "tutorial_dirs": [
+      "examples",
+      "DDG4/examples"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/dd4hep-dd4hep",
+  "run_id": "compile_20260304T075500676088Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "dd4hep-api-and-scripting",
+      "dd4hep-build-and-install",
+      "dd4hep-examples-and-tutorials",
+      "dd4hep-getting-started",
+      "dd4hep-index",
+      "dd4hep-inputs-and-modeling",
+      "dd4hep-reference",
+      "dd4hep-releasenotes",
+      "dd4hep-simulation-workflows"
+    ],
+    "core_skill_ids": [
+      "dd4hep-examples-and-tutorials",
+      "dd4hep-build-and-install",
+      "dd4hep-simulation-workflows",
+      "dd4hep-releasenotes",
+      "dd4hep-reference",
+      "dd4hep-inputs-and-modeling"
+    ],
+    "deferred_gaps": [
+      "Most core manuals are LaTeX under doc/usermanuals/* and need targeted extraction into concise playbooks in pass 2.",
+      "Generator topic naming may surface niche single-doc buckets (for example releasenotes/reference) that should be merged during pass-3 audit."
+    ],
+    "goal": "Passes 2/3 should generate and refine high-impact, docs-first DD4hep skills with targeted source/test escalation paths.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "refresh",
+        "must_cover": [
+          "intent triage across geometry, simulation, build, and troubleshooting",
+          "clear docs-first routing with escalation rules",
+          "links to examples/tests for executable validation paths"
+        ],
+        "reason": "Router quality determines whether users land on the correct topic skill in a large multi-package codebase.",
+        "skill_id": "dd4hep-index",
+        "source_hints": [
+          "README.md",
+          "CMakeLists.txt",
+          "doc/"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "cmake configure/build/install baseline",
+          "dependency toggles for ROOT, Geant4, LCIO, EDM4hep, HepMC3",
+          "runtime environment scripts and test enablement"
+        ],
+        "reason": "Build and dependency setup is the highest-frequency blocker for first-use and CI/HPC onboarding.",
+        "skill_id": "dd4hep-build-and-install",
+        "source_hints": [
+          "CMakeLists.txt",
+          "cmake/",
+          "doc/usermanuals/DD4hep"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "compact XML structure and include patterns",
+          "detector plugin entrypoints and geometry construction flow",
+          "material/segmentation and validation checks"
+        ],
+        "reason": "Detector description and compact XML modeling are central to DD4hep usage workflows.",
+        "skill_id": "dd4hep-inputs-and-modeling",
+        "source_hints": [
+          "doc/usermanuals/DD4hep",
+          "examples/*/compact",
+          "DDDetectors/src",
+          "DDCore/src"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "DDG4 Python steering workflow",
+          "user actions/plugins integration",
+          "run controls, outputs, and quick validation checks"
+        ],
+        "reason": "DDG4 execution scripts and simulation control are common operational tasks after geometry setup.",
+        "skill_id": "dd4hep-simulation-workflows",
+        "source_hints": [
+          "doc/usermanuals/DDG4",
+          "DDG4/examples",
+          "examples/ClientTests/scripts",
+          "DDG4/src"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "dd4hep-build-and-install",
+      "dd4hep-examples-and-tutorials",
+      "dd4hep-getting-started",
+      "dd4hep-inputs-and-modeling",
+      "dd4hep-api-and-scripting",
+      "dd4hep-simulation-workflows"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/dd4hep-dd4hep/skills/dd4hep-getting-started/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/dd4hep-dd4hep/skills/dd4hep-api-and-scripting/SKILL.md: playbook missing required element containing 'pitfalls'."
+    ],
+    "index_skills": [
+      "dd4hep-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "dd4hep-index",
+      "dd4hep-build-and-install",
+      "dd4hep-inputs-and-modeling",
+      "dd4hep-simulation-workflows"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 9,
+    "source_inventory": {},
+    "source_links_total": 98,
+    "topic_skills": 8,
+    "warnings": []
+  }
+}
